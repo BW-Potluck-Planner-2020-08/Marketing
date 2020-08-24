@@ -35,7 +35,6 @@ body{
     font-size:1.6rem;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
-	border: 2px solid grey;
 }
 /* Page Defaults End */
 
@@ -56,11 +55,11 @@ header nav{
 header nav a{
 	padding: 1.5%;
 	text-decoration: none;
-	color: #f2ab27;
+	color: white;
 }
 
 header nav span{
-	border:2px solid #f2ab27;
+	border:2px solid white;
 	height: 40%;
 }
 
@@ -100,3 +99,29 @@ footer nav span {
     height: 40%;
 }
 /* Footer Styles End */
+
+
+/*Styles for 800px*/
+
+@media(max-width:800px){
+
+/*Header styles*/
+	header nav a{
+		font-size: 1.8rem;
+	}
+	header nav img{
+		padding-right: 20%;
+		height: 8rem;
+	}
+	header nav span{
+		height: 30%;
+	}
+
+/*Footer Styles*/
+	footer nav a{
+		font-size:1.8rem;
+	}
+	footer nav span{
+		height: 30%;
+	}
+}
