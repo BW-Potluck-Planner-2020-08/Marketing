@@ -28,7 +28,8 @@ footer, header, hgroup, menu, nav, section {
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html{
-    font-size:62.5%;
+	font-size:62.5%;
+	box-sizing: border-box;
 }
 
 body{
@@ -45,7 +46,7 @@ header{
 }
 header nav{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
 	font-size:2.5rem;
 	background-color: #323e40;
@@ -53,14 +54,19 @@ header nav{
     width: 80%;
 }
 header nav a{
-	padding: 1.5%;
+	/* padding: 1.5%; */
 	text-decoration: none;
 	color: white;
+	margin: 1rem;
+}
+header nav div {
+	display: flex;
+	align-items: center;
 }
 
-header nav span{
-	border:2px solid white;
-	height: 40%;
+span{
+    border: 0.2rem solid white;
+	height: 4rem;
 }
 
 a:hover{
@@ -69,7 +75,7 @@ a:hover{
 
 header nav img {
 	height: 8rem;
-	padding-right: 37%;
+	margin: 2rem;
 }
 /* Header Styles End */
 
