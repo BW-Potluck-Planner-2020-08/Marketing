@@ -25,7 +25,37 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-h1 {
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html {
+    font-size: 62.5%;
 }
 
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto';
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 2.5rem;
+    background-color: #323E40;
+    height: 10rem;
+}
+
+footer nav a {
+    margin: 1%;
+    color: white;
+}
+
+footer nav span {
+    border: 0.2rem solid white;
+    height: 40%;
+}
