@@ -24,38 +24,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/* Page Defaults */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 html{
     font-size:62.5%;
 }
+
 body{
     font-size:1.6rem;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 	border: 2px solid grey;
 }
-/*Header styles go here, this header will be used on all pages*/
+/* Page Defaults End */
 
+/*Header styles go here, this header will be used on all pages*/
 header{
 	display: flex;
 	justify-content: center;
 }
-nav{
+header nav{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	font-size:2.5rem;
 	background-color: #323e40;
 	height: 10rem;
-	width: 80%;
-
+    width: 80%;
 }
-nav a{
+header nav a{
 	padding: 1.5%;
 	text-decoration: none;
 	color: #f2ab27;
 }
 
-nav span{
+header nav span{
 	border:2px solid #f2ab27;
 	height: 40%;
 }
@@ -64,8 +68,35 @@ a:hover{
 	color: #d97d0d;;
 }
 
-img{
+header nav img {
 	height: 8rem;
 	padding-right: 37%;
 }
+/* Header Styles End */
 
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 2.5rem;
+    background-color: #323E40;
+    height: 10rem;
+}
+
+footer nav a {
+    margin: 1%;
+    color: white;
+}
+
+footer nav span {
+    border: 0.2rem solid white;
+    height: 40%;
+}
+/* Footer Styles End */
