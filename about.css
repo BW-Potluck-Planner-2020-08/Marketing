@@ -78,6 +78,28 @@ header nav img {
 }
 /* Header Styles End */
 
+
+
+
+
+.title-container{
+	height: 20vh;
+	background-image: url(assets/ambitious-creative-co-rick-barrett-I8Ag046kfqc-unsplash.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer Styles */
 footer {
     display: flex;
