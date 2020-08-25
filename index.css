@@ -104,7 +104,7 @@ header nav img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 52%;
+	width: 55%;
 }
 
 .bannerText h1, .bannerText h2, .bannerText p {
@@ -124,7 +124,7 @@ header nav img {
 	border: 2px solid #d97d0d;
 }
 
-@keyframes example {
+@keyframes buttonChange {
 	from {background-color: #F2AB27;}
 	to {background-color: #d97d0d;}
 }
@@ -132,7 +132,7 @@ header nav img {
 .bannerText a:hover {
 	background-color: #d97d0d;
 	border: 2px solid #F2AB27;
-	animation-name: example;
+	animation-name: buttonChange;
 	animation-duration: 1s;
 }
 
