@@ -54,7 +54,6 @@ header nav{
     width: 80%;
 }
 header nav a{
-	/* padding: 1.5%; */
 	text-decoration: none;
 	color: white;
 	margin: 1rem;
@@ -75,7 +74,7 @@ a:hover{
 
 header nav img {
 	height: 8rem;
-	margin: 2rem;
+	margin-left: 2rem;
 }
 /* Header Styles End */
 
@@ -100,10 +99,6 @@ footer nav a {
     color: white;
 }
 
-footer nav span {
-    border: 0.2rem solid white;
-    height: 40%;
-}
 /* Footer Styles End */
 
 
@@ -112,22 +107,28 @@ footer nav span {
 @media(max-width:800px){
 
 /*Header styles*/
+	header nav {
+		width: 100%;
+	}
 	header nav a{
 		font-size: 1.8rem;
 	}
 	header nav img{
-		padding-right: 20%;
 		height: 8rem;
 	}
-	header nav span{
-		height: 30%;
+	span{
+		height: 3rem;
+	}
+	header nav img {
+		height: 7rem;
+		margin-left: 0.5rem;
 	}
 
 /*Footer Styles*/
+	footer nav {
+		width: 100%;
+	}
 	footer nav a{
 		font-size:1.8rem;
-	}
-	footer nav span{
-		height: 30%;
 	}
 }
