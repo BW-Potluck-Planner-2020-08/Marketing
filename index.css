@@ -80,7 +80,14 @@ header nav img {
 
 /* Main Content Styles */
 
+.mainContent {
+	width: 80%;
+}
 
+.mainContent img {
+	width: 100%;
+	height: auto;
+}
 
 
 
