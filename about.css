@@ -35,7 +35,7 @@ html{
 body{
     font-size:1.6rem;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 /* Page Defaults End */
 
@@ -78,26 +78,65 @@ header nav img {
 }
 /* Header Styles End */
 
-
-
-
+/*Hero Image Style*/
 
 .title-container{
-	height: 20vh;
-	background-image: url(assets/ambitious-creative-co-rick-barrett-I8Ag046kfqc-unsplash.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:80%;
+	height: 60vh;
+	background-image: url(assets/photo-1547573854-74d2a71d0826.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.title-container div{
+	display: flex;
+	justify-content: center;
 }
 
+.title-container h1{
+	color: white;
+	font-size: 4.8rem;
+	font-weight: bold;
+}
+/*Hero Image style ends*/
 
+/*Text Section styles*/
 
+.text-section h2{
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
 
+.text-section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 80%;
+	background-color: #e2dccd;
+}
+.text-section p{
+	margin: 2%;
+}
+/*Text Section styles end*/
 
+/*bottom images styles*/
 
+.gallery{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	background-color: #e2dccd;
+}
 
-
-
-
-
-
+.gallery img{
+	height: 20vh;
+	width:20%;
+}
 
 
 /* Footer Styles */
