@@ -58,7 +58,7 @@ header nav a{
 	color: white;
 	margin: 1rem;
 }
-header nav div {
+header nav section {
 	display: flex;
 	align-items: center;
 }
@@ -77,6 +77,46 @@ header nav img {
 	margin-left: 2rem;
 }
 /* Header Styles End */
+
+/* Main Content Styles */
+
+.mainContent {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bannerImage {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.mainContent img {
+	width: 100%;
+	height: auto;
+}
+
+.subContent {
+	display: flex;
+	justify-content: center;
+}
+
+.subImage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+}
+
+
+
+
+/* Main Content Styles End */
 
 /* Footer Styles */
 footer {
