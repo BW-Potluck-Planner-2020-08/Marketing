@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
@@ -81,16 +81,42 @@ header nav img {
 /* Main Content Styles */
 
 .mainContent {
-	width: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
+
+.bannerImage {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+}
+
+
 
 .mainContent img {
 	width: 100%;
 	height: auto;
 }
 
+.subContent {
+	display: flex;
+	justify-content: center;
+}
+
+.subImage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+}
 
 
+
+
+/* Main Content Styles End */
 
 /* Footer Styles */
 footer {
