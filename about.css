@@ -78,6 +78,13 @@ header nav img {
 }
 /* Header Styles End */
 
+
+.main-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 /*Hero Image Style*/
 
 .title-container{
@@ -109,34 +116,49 @@ header nav img {
 	font-size: 3rem;
 	font-weight: bold;
 	margin-bottom: 2%;
+	text-align: center;
 }
 
 .text-section{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	text-align: center;
+	text-align: justify;
 	width: 80%;
 	background-color: #e2dccd;
 }
 .text-section p{
-	margin: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 /*Text Section styles end*/
 
 /*bottom images styles*/
 
+.img-section{
+	display: flex;
+	justify-content: center;
+}
+
 .gallery{
 	display: flex;
-	justify-content: space-between;
+	justify-content: stretch;
 	width: 80%;
 	background-color: #e2dccd;
 }
 
 .gallery img{
-	height: 20vh;
-	width:20%;
+	height: 30vh;
+	width:33.3%;
 }
+
+
+
 
 
 /* Footer Styles */
