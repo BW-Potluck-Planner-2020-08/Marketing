@@ -98,8 +98,6 @@ header nav img {
 	color: white;
 }
 
-
-
 .bannerText {
 	color: black;
 	position: absolute;
@@ -107,6 +105,15 @@ header nav img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: rgba(226, 220, 205,0.5);
+	width: 70%;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+p{
+	font-size: 2.5rem;
 }
 
 .mainContent img {
@@ -125,11 +132,27 @@ header nav img {
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: center;
-	width: 20%;
-	margin: 1%;
+	width: 30%;
+	margin: 2%;
+	text-align: center;
 }
 
-
+@media(max-width: 1600px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+	p {
+		font-size: 2rem;
+	}
+}
+@media(max-width: 1200px) {
+	h1 {
+		font-size: 3rem;
+	}
+	p {
+		font-size: 1.7rem;
+	}
+}
 
 
 /* Main Content Styles End */
