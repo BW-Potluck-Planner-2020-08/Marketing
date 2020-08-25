@@ -106,7 +106,8 @@ header nav img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-  }
+	background-color: rgba(226, 220, 205,0.5);
+}
 
 .mainContent img {
 	width: 100%;
@@ -125,6 +126,7 @@ header nav img {
 	flex-direction: column-reverse;
 	align-items: center;
 	width: 20%;
+	margin: 1%;
 }
 
 
