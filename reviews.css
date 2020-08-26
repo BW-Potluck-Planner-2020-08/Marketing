@@ -42,7 +42,7 @@ body{
 /*Header styles go here, this header will be used on all pages*/
 header{
 	display: flex;
-	justify-content: center;
+    justify-content: center;
 }
 header nav{
 	display: flex;
@@ -77,6 +77,115 @@ header nav img {
 	margin-left: 2rem;
 }
 /* Header Styles End */
+
+/* top container styles*/
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    background-image:linear-gradient(to top left, #323e40, #e2dccd);
+    height: 55vh;
+    border-bottom: 2px solid #323E40;
+}
+
+.left-text{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+    padding-left: 4%;
+
+}
+.textBox{
+    border:5px solid #323E40;
+    background-color: #e2dccd;
+    margin-top:7%;
+    margin-left: 4%;
+}
+.left-text h1{
+    color: black;
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+.left-text h3{
+    font-size: 2.4rem;
+    margin: 2%;
+    font-weight: bold;
+}
+
+.left-text p{
+    margin: 3%;
+}
+
+.left-text button{
+    background-color: #732001;
+    height: 6vh;
+    width:40%;
+    margin-bottom: 3%;
+    color: #f2ab27;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: #f2ab27;
+    color: #732002;
+}
+
+.right-img{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right-img img{
+    height: 55vh;
+    width: 100%;
+}
+
+/*bottom container styles*/
+
+.bottom-container{
+    background-color: #f2ab27;
+    width: 80%;
+}
+
+.bottom-container h2{
+    color: black;
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom:5%;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.review{
+    width:40%;
+    height:20vh;
+
+}
+
+.review h2{
+    font-size: 3rem;
+}
+
 
 /* Footer Styles */
 footer {
