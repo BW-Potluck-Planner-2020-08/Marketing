@@ -133,9 +133,8 @@ header nav img {
     height: 6vh;
     width:40%;
     margin-bottom: 3%;
-    color: #f2ab27;
+    color:white;
     font-size: 2rem;
-    transition: 1s;
 }
 
 button:hover{
