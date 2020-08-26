@@ -158,12 +158,12 @@ button:hover{
 /*bottom container styles*/
 
 .bottom-container{
-    background-color: #f2ab27;
+    background-color: #732002;
     width: 80%;
 }
 
 .bottom-container h2{
-    color: black;
+    color: white;
     font-size: 3.6rem;
     font-weight: bold;
     text-align: center;
@@ -178,12 +178,26 @@ button:hover{
 }
 .review{
     width:40%;
-    height:20vh;
+    height:100%;
+    border: 5px solid #323E40;
+    background-color: #e2dccd;
+    margin:2%;
 
 }
 
 .review h2{
     font-size: 3rem;
+    color: black;
+    border-bottom: 2px #323E40;
+}
+
+.review h3{
+    font-size: 2.4rem;
+    text-decoration: underline;
+    padding-bottom: 3%;
+}
+.review p{
+    font-size: 1.8rem;
 }
 
 
