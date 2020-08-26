@@ -215,16 +215,26 @@ footer nav a {
 	}
 
 /* Main Content Styles */
+	.mainContainer {
+		width: 100%;
+	}
+
 	.bio {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 60%;
+		width: 70%;
 	}
 
 	.bioText {
+		width: 60%;
+	}
+
+	.headerText {
 		width: 70%;
 	}
+
+
 
 /*Footer Styles*/
 	footer nav {
@@ -250,6 +260,15 @@ footer nav a {
 		padding-right: 0%;
 		height: 6.5rem;
 	}
+
+	.bio {
+		width: 80%;
+	}
+	.headerText {
+		width: 80%;
+	}
+
+
 	header nav span{
 		height: 2.4rem;
 	}
