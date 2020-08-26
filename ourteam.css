@@ -84,9 +84,6 @@ header nav img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	flex-direction: column;
-	margin-bottom: 2rem;
 }
 
 .mainContent img {
@@ -95,18 +92,33 @@ header nav img {
 	border-radius: 50%;
 }
 
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	width: 80%
+}
+
+.headerText {
+	background-color: #E2DCCD;
+	width: 60%;
+}
+
 .bio {
 	display: flex;
 	justify-content: center;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	width: 45%;
+	width: 60%;
+	background-color: #E2DCCD;
 }
 
 .right {
 	display: flex;
 	flex-direction: row-reverse;
-	border: 1px solid green;
 }
 
 .bioText {
@@ -129,6 +141,9 @@ header nav img {
 .mainContent p {
 	font-size: 2.5rem;
 }
+
+
+
 
 /* Main Content Styles End */
 
@@ -205,6 +220,11 @@ footer nav a {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		width: 60%;
+	}
+
+	.bioText {
+		width: 70%;
 	}
 
 /*Footer Styles*/
