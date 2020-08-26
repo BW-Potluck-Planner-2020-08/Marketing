@@ -135,6 +135,7 @@ header nav img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-size: 2rem;
 }
 /*Text Section styles end*/
 
