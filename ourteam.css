@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
@@ -96,6 +96,18 @@ header nav img {
 
 .bio {
 	display: flex;
+	justify-content: center;
+	width: 40%;
+}
+
+.bioText {
+	width: 50%;
+}
+
+.right {
+	display: flex;
+	flex-direction: row-reverse;
+	border: 1px solid green;
 }
 
 /* Main Content Styles End */
