@@ -160,6 +160,7 @@ button:hover{
 .bottom-container{
     background-image: url(assets/pomegranate-transparent.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
 }
 
