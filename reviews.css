@@ -158,7 +158,9 @@ button:hover{
 /*bottom container styles*/
 
 .bottom-container{
-    background-color: #732002;
+    background-image: url(assets/pomegranate-transparent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 80%;
 }
 
@@ -195,9 +197,11 @@ button:hover{
     font-size: 2.4rem;
     text-decoration: underline;
     padding-bottom: 3%;
+    margin-left: 3%;
 }
 .review p{
     font-size: 1.8rem;
+    margin: 3%;
 }
 
 
