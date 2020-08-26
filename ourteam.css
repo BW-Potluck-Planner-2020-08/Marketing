@@ -84,31 +84,66 @@ header nav img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	flex-direction: column;
 }
 
 .mainContent img {
 	width: 30%;
 	height: auto;
-	border-radius: 50%;;
+	border-radius: 50%;
+}
+
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	width: 80%
+}
+
+.headerText {
+	background-color: #E2DCCD;
+	width: 60%;
 }
 
 .bio {
 	display: flex;
 	justify-content: center;
-	width: 40%;
-}
-
-.bioText {
-	width: 50%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 60%;
+	background-color: #E2DCCD;
 }
 
 .right {
 	display: flex;
 	flex-direction: row-reverse;
-	border: 1px solid green;
 }
+
+.bioText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+}
+
+
+/* Text Sizing */
+.mainContent h1 {
+	font-size: 4.5rem;
+}
+
+.mainContent h2 {
+	font-size: 3.5rem;
+}
+
+.mainContent p {
+	font-size: 2.5rem;
+}
+
+
+
 
 /* Main Content Styles End */
 
@@ -135,6 +170,29 @@ footer nav a {
 
 /* Footer Styles End */
 
+/* Text resizing for smaller computer screens at 1600 and 1200 px */
+@media(max-width: 1600px) {
+	.mainContent h1 {
+		font-size: 4rem;
+	}
+	.mainContent h2 {
+		font-size: 3rem;
+	}
+	.mainContent p {
+		font-size: 2rem;
+	}
+}
+@media(max-width: 1200px) {
+	.mainContent h1 {
+		font-size: 3.5rem;
+	}
+	.mainContent h2 {
+		font-size: 2.5rem;
+	}
+	.mainContent p {
+		font-size: 1.7rem;
+	}
+}
 
 /*Styles for 800px*/
 @media(max-width:800px){
@@ -155,6 +213,18 @@ footer nav a {
 	header nav img {
 		height: 7rem;
 		margin-left: 0.5rem;
+	}
+
+/* Main Content Styles */
+	.bio {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 60%;
+	}
+
+	.bioText {
+		width: 70%;
 	}
 
 /*Footer Styles*/
