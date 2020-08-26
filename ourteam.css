@@ -98,8 +98,10 @@ header nav img {
 	align-items: center;
 	text-align: center;
 	flex-direction: column;
-	margin-bottom: 2rem;
-	width: 80%
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	width: 80%;
+	background-image: url('assets/chocolate-background-transparent.jpg');
 }
 
 .headerText {
@@ -141,9 +143,6 @@ header nav img {
 .mainContent p {
 	font-size: 2.5rem;
 }
-
-
-
 
 /* Main Content Styles End */
 
