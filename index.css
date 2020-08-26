@@ -117,21 +117,21 @@ header nav img {
 
 .mainContent a {
 	color: white;
-	background-color: #F2AB27;
+	background-color: #732002;
 	padding: 1rem;
 	padding-left: 3rem;
-	padding-right: 3rem;;
-	border: 2px solid #d97d0d;
+	padding-right: 3rem;
+	border: 2px solid #d94d1a;
 }
 
 @keyframes buttonChange {
-	from {background-color: #F2AB27;}
-	to {background-color: #d97d0d;}
+	from {background-color: #732002;}
+	to {background-color: #d94d1a;}
 }
 
 .mainContent a:hover {
-	background-color: #d97d0d;
-	border: 2px solid #F2AB27;
+	background-color: #d94d1a;
+	border: 2px solid #732002;
 	animation-name: buttonChange;
 	animation-duration: 1s;
 }
