@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid red;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
@@ -35,7 +35,7 @@ html{
 body{
     font-size:1.6rem;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 /* Page Defaults End */
 
@@ -77,6 +77,28 @@ header nav img {
 	margin-left: 2rem;
 }
 /* Header Styles End */
+
+/* Main Content Styles */
+
+.mainContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.mainContent img {
+	width: 30%;
+	height: auto;
+	border-radius: 50%;;
+}
+
+.bio {
+	display: flex;
+}
+
+/* Main Content Styles End */
 
 /* Footer Styles */
 footer {
