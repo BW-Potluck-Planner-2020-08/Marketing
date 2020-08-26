@@ -115,7 +115,7 @@ header nav img {
 	border: none;
 }
 
-.bannerText a {
+.mainContent a {
 	color: white;
 	background-color: #F2AB27;
 	padding: 1rem;
@@ -129,7 +129,7 @@ header nav img {
 	to {background-color: #d97d0d;}
 }
 
-.bannerText a:hover {
+.mainContent a:hover {
 	background-color: #d97d0d;
 	border: 2px solid #F2AB27;
 	animation-name: buttonChange;
@@ -242,18 +242,21 @@ footer nav a {
 		height: 7rem;
 		margin-left: 0.5rem;
 	}
-
+	
 /* Main Content Styles */
-	.bannerText p {
-		display: none;
-	}
-	.bannerText h2 {
+	.bannerText p, .bannerText h2, .bannerText a {
 		display: none;
 	}
 	.bannerImage {
 		width: 100%;
 	}
-
+	.subContent {
+		width: 100%;
+	}
+	.tabletText {
+		text-align: center;
+		margin-bottom: 2rem;;
+	}
 
 /*Footer Styles*/
 	footer nav {
@@ -266,6 +269,14 @@ footer nav a {
 		height: 30%;
 	}
 }
+
+/* This removes the swapped h2 and p text in the image */
+@media(min-width: 801px) {
+	.tabletText{
+		display: none;
+	}
+}
+
 
 @media(max-width:500px){
 	header nav{
