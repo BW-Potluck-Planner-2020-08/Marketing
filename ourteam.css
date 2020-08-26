@@ -35,7 +35,7 @@ html{
 body{
     font-size:1.6rem;
     line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 /* Page Defaults End */
 
@@ -77,6 +77,40 @@ header nav img {
 	margin-left: 2rem;
 }
 /* Header Styles End */
+
+/* Main Content Styles */
+
+.mainContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.mainContent img {
+	width: 30%;
+	height: auto;
+	border-radius: 50%;;
+}
+
+.bio {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+}
+
+.bioText {
+	width: 50%;
+}
+
+.right {
+	display: flex;
+	flex-direction: row-reverse;
+	border: 1px solid green;
+}
+
+/* Main Content Styles End */
 
 /* Footer Styles */
 footer {
