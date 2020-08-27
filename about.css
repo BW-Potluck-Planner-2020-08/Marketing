@@ -203,6 +203,26 @@ footer nav a {
 		margin-left: 0.5rem;
 	}
 
+	.main-content{
+		width: 100%;
+	}
+
+	.title-container{
+		width: 100%;
+	}
+
+	.text-section{
+		width: 100%;
+	}
+
+	.gallery{
+		width:100%;
+	}
+
+	h1{
+		text-align: center;
+	}
+
 /*Footer Styles*/
 	footer nav {
 		width: 100%;
@@ -230,6 +250,22 @@ footer nav a {
 	header nav span{
 		height: 2.4rem;
 	}
+
+	.title-container h1{
+		font-size:3.4rem;
+	}
+	.title-container{
+		height: 30vh;
+	}
+
+	.text-section h2{
+		font-size: 3rem;
+	}
+
+	.text-section p{
+		font-size: 1.8rem;
+	}
+
 	footer nav{
 		width: 100%;
 	}

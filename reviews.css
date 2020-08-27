@@ -249,6 +249,34 @@ footer nav a {
 		margin-left: 0.5rem;
 	}
 
+    .top-container{
+        width: 100%;
+    }
+
+    .bottom-container{
+        width: 100%;
+    }
+    .left-text h1{
+        font-size: 3.6rem;
+    }
+    .left-text button{
+        height: 5vh;
+    }
+    .textBox{
+        margin-top: 8%;
+    }
+
+    .review h2{
+        font-size: 2.8rem;
+        margin: 2%;
+    }
+    .review h3{
+        font-size: 2.2rem;
+    }
+    .review p{
+        font-size: 1.8rem;
+    }
+
 /*Footer Styles*/
 	footer nav {
 		width: 100%;
@@ -275,7 +303,58 @@ footer nav a {
 	}
 	header nav span{
 		height: 2.4rem;
-	}
+    }
+    
+    .top-container{
+        height: 68vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .left-text{
+        width: 92%;
+    }
+
+    .left-text h1{
+        font-size: 2.6rem;
+    }
+    .left-text p{
+        font-size: 1.8rem;
+    }
+    .left-text button{
+        height: 4vh;
+        font-size: 1.6rem;
+    }
+
+    .textBox{
+        margin-top: 1%;
+        margin-left: auto;
+        margin-bottom:3%;
+    }
+
+    .right-img{
+        width: 100%;
+    }
+
+    .right-img img{
+        height: 35vh;
+    }
+
+    .bottom-container{
+        background-size: cover;
+    }
+
+    .gallery{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review{
+        width: 80%;
+    }
+
+
 	footer nav{
 		width: 100%;
 	}
