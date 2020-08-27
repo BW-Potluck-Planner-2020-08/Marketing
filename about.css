@@ -202,6 +202,7 @@ footer nav a {
 		height: 7rem;
 		margin-left: 0.5rem;
 	}
+/*Header styles ends */
 
 	.main-content{
 		width: 100%;
@@ -236,6 +237,7 @@ footer nav a {
 }
 
 @media(max-width:500px){
+	/* header styles*/
 	header nav{
 		width: 100%;
 		display: flex;
@@ -250,6 +252,7 @@ footer nav a {
 	header nav span{
 		height: 2.4rem;
 	}
+	/* header styles end*/
 
 	.title-container h1{
 		font-size:3.4rem;
@@ -265,6 +268,8 @@ footer nav a {
 	.text-section p{
 		font-size: 1.8rem;
 	}
+	
+	/*footer styles*/
 
 	footer nav{
 		width: 100%;

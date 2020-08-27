@@ -231,7 +231,7 @@ footer nav a {
 /*Styles for 800px*/
 @media(max-width:800px){
 
-/*Header styles*/
+    /*Header styles*/
 	header nav {
 		width: 100%;
 	}
@@ -247,8 +247,9 @@ footer nav a {
 	header nav img {
 		height: 7rem;
 		margin-left: 0.5rem;
-	}
+    }
 
+    /*main content styles*/
     .top-container{
         width: 100%;
     }
@@ -277,7 +278,7 @@ footer nav a {
         font-size: 1.8rem;
     }
 
-/*Footer Styles*/
+    /*Footer Styles*/
 	footer nav {
 		width: 100%;
 	}
