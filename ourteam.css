@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: 1px solid red;;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
@@ -90,8 +90,6 @@ header nav img {
 	width: 30%;
 	height: auto;
 	border-radius: 50%;
-	margin-left: 1rem;
-	margin-right: 1rem;
 }
 
 .mainContainer {
@@ -124,6 +122,14 @@ header nav img {
 .right {
 	display: flex;
 	flex-direction: row-reverse;
+}
+
+.left img {
+	margin-right: 1rem;
+}
+
+.right img {
+	margin-left: 1rem;
 }
 
 .bioText {
