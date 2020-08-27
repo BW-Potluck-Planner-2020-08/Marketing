@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
@@ -101,7 +101,7 @@ header nav img {
 	padding-bottom: 2rem;
 	padding-top: 2rem;
 	width: 80%;
-	background-image: url('assets/chocolate-background-transparent.jpg');
+	background-image: url('assets/icecream-background-transparent.jpg');
 	background-repeat: no-repeat;
 }
 
@@ -138,6 +138,26 @@ header nav img {
 	justify-content: center;
 	width: 60%;
 }
+
+.nameContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nameContainer a {
+	display: flex;
+	width: 11%;
+	height: auto;
+	margin-left: 1rem;
+}
+
+.nameContainer img {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
 
 
 /* Default Text Sizes */
@@ -189,6 +209,12 @@ footer nav a {
 	.mainContent p {
 		font-size: 2rem;
 	}
+	.bio {
+		width: 70%;
+	}
+	.headerText {
+		width: 70%;
+	}
 }
 @media(max-width: 1200px) {
 	.mainContent h1 {
@@ -200,7 +226,15 @@ footer nav a {
 	.mainContent p {
 		font-size: 1.7rem;
 	}
+	.bio {
+		width: 80%;
+	}
+	.headerText {
+		width: 80%;
+	}
 }
+
+
 
 /*Styles for 800px*/
 @media(max-width:800px){
@@ -236,7 +270,7 @@ footer nav a {
 	}
 
 	.bioText {
-		width: 60%;
+		width: 75%;
 	}
 
 	.headerText {
